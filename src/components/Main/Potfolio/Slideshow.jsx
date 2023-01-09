@@ -20,7 +20,7 @@ export default () => {
 				{/* <span>slide 1</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
-				<img className="h-[100px] w-[200px] object-cover" src={img2} />
+				<img className="h-[100px]  w-[200px] object-cover" src={img2} />
 				{/* <span>slide 2</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
