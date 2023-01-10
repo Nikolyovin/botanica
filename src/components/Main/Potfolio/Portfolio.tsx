@@ -7,7 +7,7 @@ const Portfolio = () => {
         <div className='px-3 '>
             {/* <p className='mt-6 mb-3 text-2xl font-bold '>Мои работы</p> */}
             <div className='mt-6 mb-3 '>
-                <Typography variant='h4'>Мои работы:</Typography>
+                <Typography variant='h5'>Мои работы:</Typography>
             </div>
             <Slideshow />
         </div>

@@ -5,7 +5,7 @@ import Profile from './Profile/Profile'
 
 const Main = () => {
     return (
-        <div className='w-full color'>
+        <div className='w-full '>
             <Profile />
             <Portfolio />
             <ContactMe />
