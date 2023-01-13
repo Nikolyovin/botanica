@@ -27,35 +27,35 @@ export default () => {
 			onSwiper={(swiper) => console.log(swiper)}
 		>
 			<SwiperSlide >
-				<img className="h-[127px] w-[102px] object-cover" src={img2} />
+				<img className="h-[127px] w-[102px] object-cover rounded-2xl" src={img2} />
 				{/* <span>slide 2</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
-				<img className="h-[127px] w-[102px] object-cover" src={img4} />
+				<img className="h-[127px] w-[102px] object-cover rounded-2xl" src={img4} />
 				{/* <span>slide 3</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
-				<img className="h-[127px] w-[102px] object-cover" src={img3} />
+				<img className="h-[127px] w-[102px] object-cover rounded-2xl" src={img3} />
 				{/* <span>slide 4</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
-				<img className="h-[127px] w-[102px] object-cover" src={img1} />
+				<img className="h-[127px] w-[102px] object-cover rounded-2xl" src={img1} />
 				{/* <span>slide 1</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
-				<img className="h-[127px] w-[102px]  object-cover" src={img2} />
+				<img className="h-[127px] w-[102px]  object-cover rounded-2xl" src={img2} />
 				{/* <span>slide 2</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
-				<img className="h-[127px] w-[102px] object-cover" src={img4} />
+				<img className="h-[127px] w-[102px] object-cover rounded-2xl" src={img4} />
 				{/* <span>slide 3</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
-				<img className="h-[127px] w-[102px] object-cover" src={img3} />
+				<img className="h-[127px] w-[102px] object-cover rounded-2xl" src={img3} />
 				{/* <span>slide 4</span> */}
 			</SwiperSlide>
 			<SwiperSlide>
-				<img className="h-[127px] w-[102px] object-cover" src={img1} />
+				<img className="h-[127px] w-[102px] object-cover rounded-2xl" src={img1} />
 				{/* <span>slide 1</span> */}
 			</SwiperSlide>
 			{/* <div className='flex justify-center items-center pt-5'>
