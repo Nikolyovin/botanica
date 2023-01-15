@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'cinzelRegular';
+    src: url('../src/fonts/static/Cinzel-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'cinzelBold';
+    src: url('../src/fonts/static/Cinzel-Bold.ttf') format('ttf');
+}
+
 @layer components {
     .bggImage {
         background-image: url('https://img.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg');
@@ -17,5 +27,13 @@
 
     .slideImg {
         @apply object-cover rounded-t-2xl;
+    }
+
+    .cinzelRegular {
+        font-family: cinzelRegular;
+    }
+
+    .cinzelBold {
+        font-family: cinzelBold;
     }
 }
