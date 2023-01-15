@@ -9,14 +9,16 @@ const Profile = () => {
             <div className='relative'>
                 <img
                     className='object-cover object-top w-full z-10 h-[50vh]'
+                    // className='object-cover object-top w-full z-10 h-[50vh] mb-[50vh] absolute'
                     // src="../../../assets/avatar.JPG"
                     src={avatar}
                 />
-                <div className='bg-white z-1 bottom-0 p-[8px] w-full rounded-t-2xl absolute'></div>
+                <div className='bg-white z-1 bottom-[-1px] p-[10px] w-full rounded-t-2xl absolute'></div>
+                {/* <div className='bg-white z-1 p-[10px] w-full rounded-t-2xl'></div> */}
             </div>
 
             {/* <div className=" bg-white top-[47vh] bottom-[50vh]  z-1 absolute "> */}
-            <div className=' bg-white  z-1  '>
+            <div className=' bg-white  z-1 '>
                 <div className='px-3 bg-white'>
                     {/* <h1 className=" my-3 text-3xl font-bold ">
 						Виктория Лёвина

@@ -1,5 +1,6 @@
 import React from 'react'
-import ContactMe from './ContactMe/ContactMe'
+import ContactMeBottom from './ContactMe/ContactMeBottom'
+import ContactMeTop from './ContactMe/ContactMeTop'
 import Portfolio from './Potfolio/Portfolio'
 import Profile from './Profile/Profile'
 
@@ -8,7 +9,8 @@ const Main = () => {
         <div className='w-full '>
             <Profile />
             <Portfolio />
-            <ContactMe />
+            <ContactMeTop />
+            <ContactMeBottom />
         </div>
     )
 }
