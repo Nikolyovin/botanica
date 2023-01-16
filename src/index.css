@@ -29,7 +29,7 @@
         @apply object-cover rounded-t-2xl;
     }
 
-    .cinzelRegular {
+    body {
         font-family: cinzelRegular;
     }
 

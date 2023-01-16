@@ -12,11 +12,6 @@ const Portfolio = () => {
                 </Typography>
             </div> */}
             <div className='flex items-start relative '>
-                {/* <p className='mt-6 mb-3 text-2xl font-bold '>Мои работы</p> */}
-                {/* <div> */}
-                {/* <div className='mt-6 mb-3 '>
-                    <Typography variant='h5'>Мои работы:</Typography>
-                </div> */}
                 <Slideshow />
             </div>
             <div className='bg-white rounded-b-2xl'>
@@ -24,8 +19,6 @@ const Portfolio = () => {
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam accusantium aperiam atque quae odio
                 </p>
             </div>
-            {/* <img src={logo} className='w-[100px] mt-5 mx-auto' /> */}
-            {/* <div className='bggImageBlack mt-10 w-[100vh] h-[200px] '></div> */}
         </div>
     )
 }
