@@ -12,10 +12,11 @@ const ContactMeTop = () => {
                     Что нужно для записи?
                 </Typography>
                 <div className='flex justify-between '>
-                    <p className='text-slate-900 font-bold pb-[60px] px-[20px] text-end'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quasi. Tenetur accusantium
-                        praesentium voluptas suscipit necessitatibus aliquid fugiat nemo? Reiciendis consequuntur,
-                        molestias ipsam nihil repellendus fuga eaque? Tempore, tempora dicta?
+                    <p className='text-lg font-bold pb-[60px] px-[20px] text-end'>
+                        Эта книга адресована всем, кто изучает русский язык. Но состоит она не из правил, упражнений и
+                        учебных текстов. Для этого созданы другие замечательные учебники. У этой книги совсем иная
+                        задача. Она поможет вам научиться не только разговаривать,Для этого созданы другие замечательные
+                        учебники. У этой книги совсем иная задача.
                     </p>
                 </div>
             </div>

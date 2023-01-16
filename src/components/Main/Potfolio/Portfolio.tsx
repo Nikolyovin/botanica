@@ -16,7 +16,7 @@ const Portfolio = () => {
             </div>
             <div className='bg-white rounded-b-2xl'>
                 <p className='text-slate-500 p-4 '>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam accusantium aperiam atque quae odio
+                    Для этого созданы другие замечательные учебники. У этой книги совсем иная задача.
                 </p>
             </div>
         </div>
