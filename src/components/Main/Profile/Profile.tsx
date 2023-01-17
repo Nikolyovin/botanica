@@ -13,11 +13,11 @@ const Profile = () => {
 
             <div className=' bg-white  z-1 '>
                 <div className='px-3 bg-white'>
-                    <div className='mb-3'>
+                    <div className='mb-3 mt-[-10px]'>
                         {/* <Typography variant='h4' sx={{ fontWeight: 'bold' }}>
                             Виктория Лёвина
                         </Typography> */}
-                        <p className='cinzelBold font-bold text-[42px]'>Виктория Лёвина</p>
+                        <p className='cinzelBold font-bold text-[38px]'>Виктория Лёвина</p>
                         <p className='cinzelRegular text-[23px] text-[#757575]'>@botanica.tattoo.art</p>
                         {/* <Typography variant='h6' sx={{ color: '#757575' }}>
                             @botanica.tattoo.art

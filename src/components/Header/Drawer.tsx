@@ -21,7 +21,7 @@ const Drawer = () => {
     //     right: false
     // })
 
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState<boolean>(false)
 
     // const toggleDrawer = (anchor: Anchor, open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
     //     if (
@@ -35,7 +35,7 @@ const Drawer = () => {
     //     // setState({ ...state, [anchor]: open })
     // }
 
-    const list = (anchor: Anchor) => (
+    const list = () => (
         <Box
             // sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
             sx={{ width: 'auto' }}
@@ -61,13 +61,13 @@ const Drawer = () => {
             <>
                 <Button onClick={() => setOpen(true)}>{'top'}</Button>
                 <SwipeableDrawer
-                    anchor={'top'}
+                    // anchor={'top'}
                     open={open}
                     // onClose={toggleDrawer(anchor, false)}
                     // onOpen={toggleDrawer(anchor, true)}
                     // onClick={setOpen(true)}
                 >
-                    {list('top')}
+                    {list()}
                 </SwipeableDrawer>
             </>
         </div>

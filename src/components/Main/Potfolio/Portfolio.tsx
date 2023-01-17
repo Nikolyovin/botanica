@@ -6,6 +6,7 @@ import logo from '../../../assets/wildHerb.png'
 const Portfolio = () => {
     return (
         <div className='bg-slate-200 py-[50px] h-[100vh] px-3'>
+            <span className='cinzelBold font-bold text-[38px]'>Моё портфолио</span>
             {/* <div className='mt-6 mb-10 '>
                 <Typography variant='h5' sx={{ color: '#757575' }}>
                     Немного моих работ:
