@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/botanica/static/css/main.c9599b87.css",
-    "main.js": "/botanica/static/js/main.b86bc287.js",
+    "main.css": "/botanica/static/css/main.897f88b8.css",
+    "main.js": "/botanica/static/js/main.86ecf56c.js",
     "static/media/IMG_3266.JPG": "/botanica/static/media/IMG_3266.32aa8637f85cba5103fe.JPG",
     "static/media/IMG_3207.JPG": "/botanica/static/media/IMG_3207.ab7c189898aa141e43ad.JPG",
     "static/media/IMG_3205.JPG": "/botanica/static/media/IMG_3205.cd5d245c8c94eacf342b.JPG",
@@ -10,14 +10,12 @@
     "static/media/IMG_3179.JPG": "/botanica/static/media/IMG_3179.9a60b72690bad58e4c34.JPG",
     "static/media/IMG_3394.jpg": "/botanica/static/media/IMG_3394.7a1e31e65c5a673b6ca1.jpg",
     "static/media/logoWhite.png": "/botanica/static/media/logoWhite.df88b36ee904f50b7fa9.png",
-    "static/media/Cinzel-Bold.ttf": "/botanica/static/media/Cinzel-Bold.54ac4bafc5a661a17fdf.ttf",
-    "static/media/Cinzel-Regular.ttf": "/botanica/static/media/Cinzel-Regular.6f33f01382c3d24eecb3.ttf",
     "index.html": "/botanica/index.html",
-    "main.c9599b87.css.map": "/botanica/static/css/main.c9599b87.css.map",
-    "main.b86bc287.js.map": "/botanica/static/js/main.b86bc287.js.map"
+    "main.897f88b8.css.map": "/botanica/static/css/main.897f88b8.css.map",
+    "main.86ecf56c.js.map": "/botanica/static/js/main.86ecf56c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9599b87.css",
-    "static/js/main.b86bc287.js"
+    "static/css/main.897f88b8.css",
+    "static/js/main.86ecf56c.js"
   ]
 }
