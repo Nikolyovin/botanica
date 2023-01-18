@@ -2,8 +2,8 @@ import React from 'react'
 import InboxIcon from '@mui/icons-material/MoveToInbox'
 import MailIcon from '@mui/icons-material/Mail'
 import { List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
-import { Link, Element, Events, animateScroll as scroll } from 'react-scroll'
-import { AnchorType, VariantType } from './Header'
+import { Link } from 'react-scroll'
+import { VariantType } from './Header'
 
 interface IButton {
     title: string
@@ -29,7 +29,7 @@ const TabList: React.FC<Iprops> = ({ setIsOpen, setVariant }) => {
             title: 'Что нужно для записи?'
         },
         {
-            href: 'ContactMeBottom',
+            href: 'contactMeBottom',
             icon: 'test',
             title: 'Как со мной связаться?'
         },
@@ -45,6 +45,7 @@ const TabList: React.FC<Iprops> = ({ setIsOpen, setVariant }) => {
         setIsOpen(false)
         setVariant('temporary')
     }
+
     return (
         <List sx={{ p: 0 }}>
             {arrButtons.map((item, index) => (

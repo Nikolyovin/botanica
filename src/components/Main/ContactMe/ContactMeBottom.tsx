@@ -4,10 +4,11 @@ import vkIcon from '../../../assets/vk.png'
 import instagramIcon from '../../../assets/instagram-black.png'
 import tgIcon from '../../../assets/telegram.png'
 import photo from '../../../assets/IMG_3393.jpg'
+import { Element } from 'react-scroll'
 
 const ContactMeBottom = () => {
     return (
-        <>
+        <Element name='contactMeBottom'>
             <Typography variant='h4' sx={{ fontWeight: 'bold', flex: 1, px: '20px', py: '60px' }}>
                 Как со мной связаться?
             </Typography>
@@ -33,7 +34,7 @@ const ContactMeBottom = () => {
                     </a>
                 </IconButton>
             </div>
-        </>
+        </Element>
     )
 }
 

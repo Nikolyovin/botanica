@@ -6,12 +6,12 @@ import Profile from './Profile/Profile'
 
 const Main = () => {
     return (
-        <div className='w-full '>
+        <main className='w-full '>
             <Profile />
             <Portfolio />
             <ContactMeTop />
             <ContactMeBottom />
-        </div>
+        </main>
     )
 }
 

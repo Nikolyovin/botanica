@@ -1,11 +1,10 @@
-import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
+import { Box } from '@mui/material'
 import React, { FC, Dispatch } from 'react'
 import { IconButton } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 import Divider from '@mui/material/Divider'
 import TabList from './TabList'
-import { AnchorType, VariantType } from './Header'
-// import List from '@mui/material/List'
+import { VariantType } from './Header'
 
 interface Iprops {
     setIsOpen: Dispatch<React.SetStateAction<boolean>>
