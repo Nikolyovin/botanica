@@ -14,20 +14,14 @@ const Profile = () => {
             <div className=' bg-white  z-1 '>
                 <div className='px-3 bg-white'>
                     <div className='mb-3 mt-[-10px]'>
-                        {/* <Typography variant='h4' sx={{ fontWeight: 'bold' }}>
-                            Виктория Лёвина
-                        </Typography> */}
-                        <p className='cinzelBold font-bold text-[38px]'>Виктория Лёвина</p>
-                        <p className='cinzelRegular text-[23px] text-[#757575]'>@botanica.tattoo.art</p>
-                        {/* <Typography variant='h6' sx={{ color: '#757575' }}>
-                            @botanica.tattoo.art
-                        </Typography> */}
+                        <h1 className='title'>Виктория Лёвина</h1>
+                        <h2 className=' amatic font-bold text-[25px] text-[#757575]'>@botanica.tattoo.art</h2>
                     </div>
 
                     <Divider sx={{ width: '25%' }} />
-                    <p className='mt-2 text-slate-500 cinzelRegular'>Рязань, Москва</p>
+                    <p className='mt-2 text-slate-500 '>Рязань, Москва</p>
                     {/* <div className='flex justify-between'> */}
-                    <p className='my-3 text-slate-500 cinzelRegular'>
+                    <p className='mt-3 mb-6 text-slate-500 '>
                         Эта книга адресована всем, кто изучает русский язык. Но состоит она не из правил, упражнений и
                         учебных текстов. Для этого созданы другие замечательные учебники. У этой книги совсем иная
                         задача. Она поможет вам научиться не только разговаривать,

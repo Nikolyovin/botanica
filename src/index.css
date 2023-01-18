@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'cinzelRegular';
-    src: url('../src/fonts/static/Cinzel-Regular.ttf') format('ttf');
-}
-
-@font-face {
-    font-family: 'cinzelBold';
-    src: url('../src/fonts/static/Cinzel-Bold.ttf') format('ttf');
-}
-
 @layer components {
     .bggImage {
         background-image: url('https://img.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg');
@@ -21,19 +11,33 @@
         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlr6woeLljxu6J8w7a3JRrGCOHWEWBUXHZhfNoTBFFyEDImZthNyN9Z0C08e9EpXjAXh4&usqp=CAU');
     }
 
-    /* .swiper {
-    height: 165px;
-    } */
-
     .slideImg {
         @apply object-cover rounded-t-2xl;
     }
 
-    body {
-        font-family: cinzelRegular;
+    .amatic{
+        font-family: 'Amatic SC', cursive;
     }
 
-    .cinzelBold {
-        font-family: cinzelBold;
+    .amaticBold{
+        font-family: 'Sofia Sans Extra Condensed', sans-serif;
     }
+
+    .robotoCondensed{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    body{
+        font-size: 16px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .title{
+        @apply font-bold text-[42px];
+        font-family: 'Amatic SC', cursive;
+    }
+
+    /* .caveatBold {
+        font-family: caveatBold;
+    } */
 }
