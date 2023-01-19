@@ -7,9 +7,9 @@ import { Link, Element, Events, animateScroll as scroll } from 'react-scroll'
 const Portfolio = () => {
     return (
         <Element name='portfolio'>
-            <div className='bg-slate-200 py-[50px] h-[100vh] px-3'>
-                <span className='title'>Моё портфолио</span>
-                <div className='flex items-start relative '>
+            <div className='bg-slate-200 pt-[30px] pb-[60px] px-3'>
+                <h2 className='title'>Моё портфолио</h2>
+                <div className='flex items-start relative pt-6'>
                     <Slideshow />
                 </div>
                 <div className='bg-white rounded-b-2xl'>
