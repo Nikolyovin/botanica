@@ -6,9 +6,9 @@ import { Typography } from '@mui/material'
 const Profile = () => {
     return (
         // <div className='h-[100vh] overflow-hidden'>
-        <div className=' '>
+        <section className=' '>
             <div className='relative'>
-                <img className='object-cover object-top w-full z-10 h-[50vh]' src={avatar} />
+                <img className='object-cover object-top w-full z-10 h-[50vh]' src={avatar} alt='avatar' />
                 <div className='bg-white z-1 bottom-[-1px] p-[10px] w-full rounded-t-2xl absolute'></div>
             </div>
 
@@ -30,7 +30,7 @@ const Profile = () => {
                 </div>
                 {/* <div className='bggImage w-[100vh] h-[200px] '></div> */}
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -7,8 +7,8 @@ import ContactMeTopSlider from './ContactMeTopSlider'
 
 const ContactMeTop = () => {
     return (
-        <Element name='contactMeTop'>
-            <div className=' z-0 relative'>
+        <section className=' z-0 relative'>
+            <Element name='contactMeTop'>
                 {/* <img className=' object-contain ' src={photo} /> */}
                 <ContactMeTopSlider />
                 <div className='absolute z-100 flex h-full flex-col top-0 px-[20px] py-[60px]'>
@@ -22,8 +22,8 @@ const ContactMeTop = () => {
                         </p>
                     </div>
                 </div>
-            </div>
-        </Element>
+            </Element>
+        </section>
     )
 }
 

@@ -40,7 +40,7 @@ const ContactMeTopSlider = () => {
         >
             {arrSlides.map(({ src }) => (
                 <SwiperSlide key={src}>
-                    <img className='object-cover' src={src} />
+                    <img className='object-cover' src={src} alt='photo' />
                 </SwiperSlide>
             ))}
         </Swiper>

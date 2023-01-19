@@ -4,8 +4,7 @@ import { IconButton, SwipeableDrawer, Typography } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import { useState } from 'react'
 import DrawerList from './DrawerList'
-
-export type VariantType = 'temporary' | 'persistent'
+import { VariantType } from '../../types/types'
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -25,7 +24,7 @@ const Header = () => {
 
     return (
         <header className='flex z-20 px-3 justify-between items-center w-full h-[50px]'>
-            <img className='w-[40px] h-[40px]' src={logo} />
+            <img className='w-[40px] h-[40px]' src={logo} alt='logo' />
             <IconButton onClick={onClick} sx={{ p: 0 }}>
                 <MenuIcon sx={{ fontSize: 32 }} />
             </IconButton>

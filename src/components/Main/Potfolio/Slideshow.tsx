@@ -50,7 +50,7 @@ const SlideShow = () => {
         >
             {arrSlides.map(({ src }) => (
                 <SwiperSlide key={src}>
-                    <img className='slideImg z-0' src={src} />
+                    <img className='slideImg z-0' src={src} alt='photo' />
                 </SwiperSlide>
             ))}
         </Swiper>

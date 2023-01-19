@@ -3,10 +3,10 @@ import InboxIcon from '@mui/icons-material/MoveToInbox'
 import MailIcon from '@mui/icons-material/Mail'
 import { List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
 import { Link } from 'react-scroll'
-import { VariantType } from './Header'
 import Divider from '@mui/material/Divider'
 import ImageIcon from '@mui/icons-material/Image'
 import CreateIcon from '@mui/icons-material/Create'
+import { VariantType } from '../../types/types'
 
 interface IButton {
     title: string

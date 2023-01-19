@@ -37,10 +37,7 @@ const Footer = () => {
                 </IconButton>
 
                 <IconButton size='large'>
-                    <a
-                        // className='w-[35px] h-[35px] bg-white rounded-full'
-                        href='https://instagram.com/lyovina_tattoo?igshid=OGQ2MjdiOTE='
-                    >
+                    <a href='https://instagram.com/lyovina_tattoo?igshid=OGQ2MjdiOTE='>
                         <img className='w-[35px] bg-white' src={instagramIcon} alt='instagram' />
                     </a>
                 </IconButton>

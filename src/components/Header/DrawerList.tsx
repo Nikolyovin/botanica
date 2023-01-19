@@ -4,7 +4,7 @@ import { IconButton } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 import Divider from '@mui/material/Divider'
 import TabList from './TabList'
-import { VariantType } from './Header'
+import { VariantType } from '../../types/types'
 
 interface Iprops {
     setIsOpen: Dispatch<React.SetStateAction<boolean>>
