@@ -37,9 +37,9 @@ const SlideShow = () => {
             spaceBetween={30}
             slidesPerView={1}
             // navigation
-            effect='fade'
+            // effect='fade'
             // autoplay={{ delay: 1000, waitForTransition: false, disableOnInteraction: false }}
-            fadeEffect={{ crossFade: true }}
+            // fadeEffect={{ crossFade: true }}
             pagination={{
                 dynamicBullets: true,
                 clickable: true
