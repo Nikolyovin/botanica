@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/botanica/static/css/main.897f88b8.css",
-    "main.js": "/botanica/static/js/main.86ecf56c.js",
+    "main.css": "/botanica/static/css/main.b5a5eab4.css",
+    "main.js": "/botanica/static/js/main.a7a5004a.js",
     "static/media/IMG_3266.JPG": "/botanica/static/media/IMG_3266.32aa8637f85cba5103fe.JPG",
     "static/media/IMG_3207.JPG": "/botanica/static/media/IMG_3207.ab7c189898aa141e43ad.JPG",
     "static/media/IMG_3205.JPG": "/botanica/static/media/IMG_3205.cd5d245c8c94eacf342b.JPG",
     "static/media/IMG_3014.JPG": "/botanica/static/media/IMG_3014.e4e1f2474d35153df180.JPG",
+    "static/media/IMG_3393.jpg": "/botanica/static/media/IMG_3393.7799454f5f1ed2440380.jpg",
     "static/media/avatar.jpg": "/botanica/static/media/avatar.09085abe02ea8ed4a288.jpg",
+    "static/media/IMG_3392.jpg": "/botanica/static/media/IMG_3392.b677367a40b6b8788a95.jpg",
     "static/media/IMG_3179.JPG": "/botanica/static/media/IMG_3179.9a60b72690bad58e4c34.JPG",
     "static/media/IMG_3394.jpg": "/botanica/static/media/IMG_3394.7a1e31e65c5a673b6ca1.jpg",
     "static/media/logoWhite.png": "/botanica/static/media/logoWhite.df88b36ee904f50b7fa9.png",
     "index.html": "/botanica/index.html",
-    "main.897f88b8.css.map": "/botanica/static/css/main.897f88b8.css.map",
-    "main.86ecf56c.js.map": "/botanica/static/js/main.86ecf56c.js.map"
+    "main.b5a5eab4.css.map": "/botanica/static/css/main.b5a5eab4.css.map",
+    "main.a7a5004a.js.map": "/botanica/static/js/main.a7a5004a.js.map"
   },
   "entrypoints": [
-    "static/css/main.897f88b8.css",
-    "static/js/main.86ecf56c.js"
+    "static/css/main.b5a5eab4.css",
+    "static/js/main.a7a5004a.js"
   ]
 }
