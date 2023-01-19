@@ -4,6 +4,9 @@ import MailIcon from '@mui/icons-material/Mail'
 import { List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
 import { Link } from 'react-scroll'
 import { VariantType } from './Header'
+import Divider from '@mui/material/Divider'
+import ImageIcon from '@mui/icons-material/Image'
+import CreateIcon from '@mui/icons-material/Create'
 
 interface IButton {
     title: string
@@ -20,22 +23,22 @@ const TabList: React.FC<Iprops> = ({ setIsOpen, setVariant }) => {
     const arrButtons: IButton[] = [
         {
             href: 'portfolio',
-            icon: 'test',
+            icon: 'ImageIcon',
             title: 'Моё портфолио'
         },
         {
             href: 'contactMeTop',
-            icon: 'test',
+            icon: 'CreateIcon',
             title: 'Что нужно для записи?'
         },
         {
             href: 'contactMeBottom',
-            icon: 'test',
+            icon: 'MailIcon',
             title: 'Как со мной связаться?'
         },
         {
             href: 'portfolio',
-            icon: 'test',
+            icon: 'MailIcon',
             title: 'Drafts'
         }
     ]
@@ -46,19 +49,33 @@ const TabList: React.FC<Iprops> = ({ setIsOpen, setVariant }) => {
         setVariant('temporary')
     }
 
+    const findNameComponent = (icon: string) => {
+        switch (icon) {
+            case 'ImageIcon':
+                return <ImageIcon />
+            case 'CreateIcon':
+                return <CreateIcon />
+            case 'MailIcon':
+                return <MailIcon />
+            // case 'ImageIcon': return <ImageIcon/>
+        }
+    }
+
     return (
         <List sx={{ p: 0 }}>
             {arrButtons.map((item, index) => (
-                <ListItem key={index} disablePadding>
-                    <ListItemButton>
-                        <ListItemIcon>
-                            <MailIcon />
-                        </ListItemIcon>
-                        <Link to={item.href} smooth={true} duration={500}>
-                            <ListItemText primary={item.title} onClick={onClick} />
-                        </Link>
-                    </ListItemButton>
-                </ListItem>
+                <div key={index}>
+                    <Link to={item.href} smooth={true} duration={500} onClick={onClick}>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>{findNameComponent(item.icon)}</ListItemIcon>
+                                {/* <ListItemText primary={item.title} /> */}
+                                <span className='w-full'>{item.title}</span>
+                            </ListItemButton>
+                        </ListItem>
+                        <Divider variant='middle' />
+                    </Link>
+                </div>
             ))}
         </List>
     )

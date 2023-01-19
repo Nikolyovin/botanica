@@ -10,7 +10,7 @@ const ContactMeBottom = () => {
     return (
         <Element name='contactMeBottom'>
             <h3 className='title flex-1 px-[20px] py-[60px]'>Как со мной связаться?</h3>
-            <p className='text-slate-900 font-bold pb-[50px] px-[20px] '>
+            <p className='text-slate-900 font-bold pb-[50px] px-[20px] text-[18px]'>
                 Эта книга адресована всем, кто изучает русский язык. Но состоит она не из правил, упражнений и учебных
                 текстов.
             </p>

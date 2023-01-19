@@ -2,21 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.swiper-pagination-bullet-active{
-    background-color: white !important;
-}
-
 @layer components {
     .bggImage {
         background-image: url('https://img.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg');
     }
-
-    .bggImageBlack {
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlr6woeLljxu6J8w7a3JRrGCOHWEWBUXHZhfNoTBFFyEDImZthNyN9Z0C08e9EpXjAXh4&usqp=CAU');
-    }
-
-    
 
     .slideImg {
         @apply object-cover rounded-t-2xl;
@@ -44,7 +33,11 @@
         font-family: 'Amatic SC', cursive;
     }
 
-    /* .caveatBold {
-        font-family: caveatBold;
-    } */
+}
+
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+}
+.swiper{
+    z-index: 0 !important;
 }

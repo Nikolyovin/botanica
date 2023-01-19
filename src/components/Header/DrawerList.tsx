@@ -15,11 +15,11 @@ const DrawerList: FC<Iprops> = ({ setIsOpen, setVariant }) => {
     const onClick = () => setIsOpen(false)
     return (
         <Box sx={{ width: 'auto' }} role='presentation'>
-            <div className='flex justify-end items-center h-[50px]'>
+            {/* <div className='flex justify-end items-center h-[50px]'>
                 <IconButton onClick={onClick}>
                     <CloseIcon sx={{ fontSize: 32 }} />
                 </IconButton>
-            </div>
+            </div> */}
             <Divider />
             <TabList setIsOpen={setIsOpen} setVariant={setVariant} />
         </Box>
