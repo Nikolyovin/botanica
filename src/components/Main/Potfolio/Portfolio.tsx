@@ -6,7 +6,7 @@ import { Link, Element, Events, animateScroll as scroll } from 'react-scroll'
 
 const Portfolio = () => {
     return (
-        <section className='bg-slate-200 pt-[30px] pb-[60px] px-3'>
+        <section className='bg-slate-400 pt-[40px] pb-[60px] px-4'>
             <Element name='portfolio'>
                 <h2 className='title'>Моё портфолио</h2>
                 <div className='flex items-start relative pt-6'>

@@ -13,7 +13,7 @@ const Profile = () => {
             </div>
 
             <div className=' bg-white  z-1 '>
-                <div className='px-3 bg-white'>
+                <div className='px-4 bg-white'>
                     <div className='mb-3 mt-[-10px]'>
                         <h1 className='title'>Виктория Лёвина</h1>
                         <h2 className=' amatic font-bold text-[25px] text-[#757575]'>@botanica.tattoo.art</h2>

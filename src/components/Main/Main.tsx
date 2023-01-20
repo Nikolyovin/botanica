@@ -1,4 +1,5 @@
 import React from 'react'
+import AnswersOnQuestions from './AnswersOnQuestions/AnswersOnQuestions'
 import ContactMeBottom from './ContactMe/ContactMeBottom'
 import ContactMeTop from './ContactMe/ContactMeTop'
 import Portfolio from './Potfolio/Portfolio'
@@ -11,6 +12,7 @@ const Main = () => {
             <Portfolio />
             <ContactMeTop />
             <ContactMeBottom />
+            <AnswersOnQuestions />
         </main>
     )
 }

@@ -1,17 +1,15 @@
 import { IconButton, Typography } from '@mui/material'
-import TelegramIcon from '@mui/icons-material/Telegram'
 import vkIcon from '../../../assets/vk.png'
 import instagramIcon from '../../../assets/instagram-black.png'
 import tgIcon from '../../../assets/telegram.png'
-import photo from '../../../assets/IMG_3393.jpg'
 import { Element } from 'react-scroll'
 
 const ContactMeBottom = () => {
     return (
-        <section>
+        <section className='pt-[40px]'>
             <Element name='contactMeBottom'>
-                <h3 className='title flex-1 px-[20px] py-[60px]'>Как со мной связаться?</h3>
-                <p className='text-slate-900 font-bold pb-[50px] px-[20px] text-[18px]'>
+                <h3 className='title flex-1 px-[20px] '>Как со мной связаться?</h3>
+                <p className='text-slate-900 font-bold pt-[40px] pb-[50px] px-[20px] text-[18px]'>
                     Эта книга адресована всем, кто изучает русский язык. Но состоит она не из правил, упражнений и
                     учебных текстов.
                 </p>
