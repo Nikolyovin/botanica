@@ -4,6 +4,7 @@ import ContactMeBottom from './ContactMe/ContactMeBottom'
 import ContactMeTop from './ContactMe/ContactMeTop'
 import Portfolio from './Potfolio/Portfolio'
 import Profile from './Profile/Profile'
+import Reminder from './Reminder/Reminder'
 
 const Main = () => {
     return (
@@ -13,6 +14,7 @@ const Main = () => {
             <ContactMeTop />
             <ContactMeBottom />
             <AnswersOnQuestions />
+            <Reminder />
         </main>
     )
 }
