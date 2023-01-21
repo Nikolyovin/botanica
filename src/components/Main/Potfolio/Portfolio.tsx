@@ -9,7 +9,7 @@ const Portfolio = () => {
         <section className='bg-slate-400 pt-[40px] pb-[60px] px-4'>
             <Element name='portfolio'>
                 <h2 className='title'>Моё портфолио</h2>
-                <div className='flex items-start relative pt-6'>
+                <div className='flex items-start relative h-[562.75px] pt-6 '>
                     <Slideshow />
                 </div>
                 <div className='bg-white rounded-b-2xl'>

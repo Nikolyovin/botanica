@@ -31,6 +31,7 @@ const ContactMeTopSlider = () => {
             // loop={true}
             // spaceBetween={30}
             // speed={2000}
+            loop={true}
             slidesPerView={1}
             autoplay={{ delay: 4000, waitForTransition: false, disableOnInteraction: false }}
             // effect='fade'

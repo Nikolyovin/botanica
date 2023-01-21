@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, EffectFade, Autoplay } from 'swiper'
+import { Pagination, EffectFade, Autoplay, Lazy } from 'swiper'
 import img2 from '../../../assets/IMG_3014.JPG'
 import img3 from '../../../assets/IMG_3179.JPG'
 import img5 from '../../../assets/IMG_3207.JPG'
@@ -7,6 +7,7 @@ import img6 from '../../../assets/IMG_3205.JPG'
 import img7 from '../../../assets/IMG_3266.JPG'
 import 'swiper/css'
 import 'swiper/css/pagination'
+import 'swiper/css/lazy'
 
 interface ISlide {
     src: string
@@ -33,7 +34,8 @@ const SlideShow = () => {
 
     return (
         <Swiper
-            modules={[Pagination, EffectFade, Autoplay]}
+            modules={[Lazy, Pagination, EffectFade, Autoplay, Lazy]}
+            lazy={true}
             spaceBetween={30}
             slidesPerView={1}
             // navigation
@@ -50,7 +52,8 @@ const SlideShow = () => {
         >
             {arrSlides.map(({ src }) => (
                 <SwiperSlide key={src}>
-                    <img className='slideImg z-0' src={src} alt='photo' />
+                    <img className='slideImg z-0 h-full w-full  swiper-lazy' data-src={src} alt='photo' />
+                    <div className='swiper-lazy-preloader swiper-lazy-preloader-white '></div>
                 </SwiperSlide>
             ))}
         </Swiper>
