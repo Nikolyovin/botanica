@@ -64,7 +64,7 @@ const TabList: React.FC<Iprops> = ({ setIsOpen, setVariant }) => {
     return (
         <List sx={{ p: 0 }}>
             {arrButtons.map((item, index) => (
-                <div key={index}>
+                <div className='' key={index}>
                     <Link to={item.href} smooth={true} duration={500} onClick={onClick}>
                         <ListItem disablePadding>
                             <ListItemButton>
@@ -73,7 +73,7 @@ const TabList: React.FC<Iprops> = ({ setIsOpen, setVariant }) => {
                                 <span className='w-full'>{item.title}</span>
                             </ListItemButton>
                         </ListItem>
-                        <Divider variant='middle' />
+                        {/* <Divider variant='middle' /> */}
                     </Link>
                 </div>
             ))}
