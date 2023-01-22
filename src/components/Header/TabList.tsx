@@ -7,12 +7,7 @@ import Divider from '@mui/material/Divider'
 import ImageIcon from '@mui/icons-material/Image'
 import CreateIcon from '@mui/icons-material/Create'
 import { VariantType } from '../../types/types'
-
-interface IButton {
-    title: string
-    icon: string
-    href: string
-}
+import { arrButtons } from '../common'
 
 interface Iprops {
     setIsOpen: React.Dispatch<React.SetStateAction<boolean>>
@@ -20,29 +15,6 @@ interface Iprops {
 }
 
 const TabList: React.FC<Iprops> = ({ setIsOpen, setVariant }) => {
-    const arrButtons: IButton[] = [
-        {
-            href: 'portfolio',
-            icon: 'ImageIcon',
-            title: 'Моё портфолио'
-        },
-        {
-            href: 'contactMeTop',
-            icon: 'CreateIcon',
-            title: 'Что нужно для записи?'
-        },
-        {
-            href: 'contactMeBottom',
-            icon: 'MailIcon',
-            title: 'Как со мной связаться?'
-        },
-        {
-            href: 'portfolio',
-            icon: 'MailIcon',
-            title: 'Drafts'
-        }
-    ]
-
     const onClick: () => void = () => {
         setVariant('persistent')
         setIsOpen(false)

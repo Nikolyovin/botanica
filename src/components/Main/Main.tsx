@@ -1,5 +1,6 @@
 import React from 'react'
 import AnswersOnQuestions from './AnswersOnQuestions/AnswersOnQuestions'
+import BeforeTattoo from './BeforeTattoo/BeforeTattoo'
 import ContactMeBottom from './ContactMe/ContactMeBottom'
 import ContactMeTop from './ContactMe/ContactMeTop'
 import Portfolio from './Potfolio/Portfolio'
@@ -12,9 +13,10 @@ const Main = () => {
             <Profile />
             <Portfolio />
             <ContactMeTop />
-            <ContactMeBottom />
+            <BeforeTattoo />
             <AnswersOnQuestions />
             <Reminder />
+            <ContactMeBottom />
         </main>
     )
 }

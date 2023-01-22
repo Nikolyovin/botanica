@@ -46,13 +46,17 @@ const SlideShow = () => {
                 dynamicBullets: true,
                 clickable: true
             }}
-            scrollbar={{ draggable: true }}
+            // scrollbar={{ draggable: true }}
             onSlideChange={() => console.log('slide change')}
             onSwiper={swiper => console.log(swiper)}
         >
             {arrSlides.map(({ src }) => (
                 <SwiperSlide key={src}>
-                    <img className='slideImg z-0 h-full w-full  swiper-lazy' data-src={src} alt='photo' />
+                    <img
+                        className='slideImg z-0 h-full w-full border-x-4 border-t-4 border-white swiper-lazy'
+                        data-src={src}
+                        // alt='photo'
+                    />
                     <div className='swiper-lazy-preloader swiper-lazy-preloader-white '></div>
                 </SwiperSlide>
             ))}

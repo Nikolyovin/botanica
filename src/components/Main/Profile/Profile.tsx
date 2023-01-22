@@ -16,6 +16,7 @@ const Profile = () => {
                 <div className='px-4 bg-white'>
                     <div className='mb-3 mt-[-10px]'>
                         <h1 className='title'>Виктория Лёвина</h1>
+                        <h2 className=' amatic font-bold text-[25px] text-[#757575]'>Мастер Тату</h2>
                         <h2 className=' amatic font-bold text-[25px] text-[#757575]'>@botanica.tattoo.art</h2>
                     </div>
 

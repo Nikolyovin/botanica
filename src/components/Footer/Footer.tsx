@@ -5,6 +5,7 @@ import vkIcon from '../../assets/vk2.png'
 import instagramIcon from '../../assets/instagram2.png'
 import tgIcon from '../../assets/telegram2.png'
 import { Link } from 'react-scroll'
+import { arrButtons } from '../common'
 
 const Footer = () => {
     return (
@@ -15,7 +16,12 @@ const Footer = () => {
             </div>
 
             <ul className=' '>
-                <Link to={'portfolio'} smooth={true} duration={500}>
+                {arrButtons.map(({ href, title }) => (
+                    <Link to={href} smooth={true} duration={500}>
+                        <li className='text-center '>{title}</li>
+                    </Link>
+                ))}
+                {/* <Link to={'portfolio'} smooth={true} duration={500}>
                     <li className='text-center '>Моё портфолио</li>
                 </Link>
                 <Link to={'contactMeTop'} smooth={true} duration={500}>
@@ -26,10 +32,10 @@ const Footer = () => {
                 </Link>
                 <Link to={'portfolio'} smooth={true} duration={500}>
                     <li className='text-center '>Drafts</li>
-                </Link>
+                </Link> */}
             </ul>
 
-            <div className='flex justify-center h-[35px] pt-6'>
+            {/* <div className='flex justify-center h-[35px] pt-6'>
                 <IconButton size='large'>
                     <a href='https://vk.com/lyovina_tatt'>
                         <img className=' w-[35px] bg-white' src={vkIcon} alt='vk' />
@@ -46,7 +52,7 @@ const Footer = () => {
                         <img className='w-[35px] bg-white' src={tgIcon} alt='telegram' />
                     </a>
                 </IconButton>
-            </div>
+            </div> */}
         </footer>
     )
 }
