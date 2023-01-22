@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/botanica/static/css/main.8d856505.css",
-    "main.js": "/botanica/static/js/main.f304e378.js",
+    "main.css": "/botanica/static/css/main.212c940d.css",
+    "main.js": "/botanica/static/js/main.7dd7229c.js",
     "static/media/IMG_3266.JPG": "/botanica/static/media/IMG_3266.32aa8637f85cba5103fe.JPG",
     "static/media/IMG_3207.JPG": "/botanica/static/media/IMG_3207.ab7c189898aa141e43ad.JPG",
     "static/media/IMG_3205.JPG": "/botanica/static/media/IMG_3205.cd5d245c8c94eacf342b.JPG",
@@ -11,13 +11,12 @@
     "static/media/IMG_3392.jpg": "/botanica/static/media/IMG_3392.b677367a40b6b8788a95.jpg",
     "static/media/IMG_3179.JPG": "/botanica/static/media/IMG_3179.9a60b72690bad58e4c34.JPG",
     "static/media/IMG_3394.jpg": "/botanica/static/media/IMG_3394.7a1e31e65c5a673b6ca1.jpg",
-    "static/media/logoWhite.png": "/botanica/static/media/logoWhite.df88b36ee904f50b7fa9.png",
     "index.html": "/botanica/index.html",
-    "main.8d856505.css.map": "/botanica/static/css/main.8d856505.css.map",
-    "main.f304e378.js.map": "/botanica/static/js/main.f304e378.js.map"
+    "main.212c940d.css.map": "/botanica/static/css/main.212c940d.css.map",
+    "main.7dd7229c.js.map": "/botanica/static/js/main.7dd7229c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d856505.css",
-    "static/js/main.f304e378.js"
+    "static/css/main.212c940d.css",
+    "static/js/main.7dd7229c.js"
   ]
 }
