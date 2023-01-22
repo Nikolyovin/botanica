@@ -23,10 +23,10 @@ const Header = () => {
     }
 
     return (
-        <header className='flex z-20 px-3 justify-between items-center w-full h-[50px]'>
-            <img className='w-[40px] h-[40px]' src={logo} alt='logo' />
+        <header className='absolute flex z-20 px-3 justify-end items-center w-full h-[50px] bg-t'>
+            {/* <img className='w-[40px] h-[40px]' src={logo} alt='logo' /> */}
             <IconButton onClick={onClick} sx={{ p: 0 }}>
-                <MenuIcon sx={{ fontSize: 32 }} />
+                <MenuIcon className='text-white' sx={{ fontSize: 34 }} />
             </IconButton>
             <SwipeableDrawer
                 anchor={'top'}
