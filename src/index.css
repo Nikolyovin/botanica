@@ -8,7 +8,7 @@
     }
 
     .slideImg {
-        @apply object-cover rounded-t-2xl;
+        @apply object-cover rounded-2xl;
     }
 
     .amatic {
@@ -31,6 +31,10 @@
     .title {
         @apply font-bold text-[42px];
         font-family: 'Amatic SC', cursive;
+    }
+
+    .beforeTattooText {
+        @apply text-slate-600 font-bold  pb-3  text-[18px];
     }
 }
 

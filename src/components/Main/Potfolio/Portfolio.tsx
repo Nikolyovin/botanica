@@ -12,10 +12,18 @@ const Portfolio = () => {
                 <div className='flex items-start relative h-[562.75px] pt-6 '>
                     <Slideshow />
                 </div>
-                <div className='bg-white rounded-b-2xl'>
-                    <p className='text-slate-500 p-4 '>
-                        Для этого созданы другие замечательные учебники. У этой книги совсем иная задача.
+                <div className='bg-white rounded-2xl mt-3 p-4'>
+                    {/* <p className='text-slate-500 p-4 '>
+                        Я люблю создавать красоту на теле своих клиентов и заражать их своей энергией. Мои любимые стили
+                        - это ботаника и микрореализм. Если вы хотите добавить что-то особенное в свою жизнь, давайте
+                        создадим это вместе!
+                    </p> */}
+
+                    <p className='text-slate-700  bold mb-2  '>Я подстраиваюсь под анатомию каждого клиента.</p>
+                    <p className='text-slate-700 bold  mb-2 '>
+                        Некоторые большие проекты рисую на вашей коже без предварительного эскиза(фрихендом).
                     </p>
+                    <p className='text-slate-700 bold   '>В своей работе я использую натуральные оттенки цветов.</p>
                 </div>
             </Element>
         </section>

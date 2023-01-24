@@ -53,7 +53,7 @@ const SlideShow = () => {
             {arrSlides.map(({ src }) => (
                 <SwiperSlide key={src}>
                     <img
-                        className='slideImg z-0 h-full w-full border-x-4 border-t-4 border-white swiper-lazy'
+                        className='slideImg z-0 h-full w-full border-4 border-white swiper-lazy'
                         data-src={src}
                         // alt='photo'
                     />

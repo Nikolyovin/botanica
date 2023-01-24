@@ -28,7 +28,7 @@ const ListQuestions = () => {
     return (
         <div className=' pt-[30px]'>
             {arrQuestions.map(({ title, text }) => (
-                <ItemQuestion title={title} text={text} />
+                <ItemQuestion key={title} title={title} text={text} />
             ))}
         </div>
     )

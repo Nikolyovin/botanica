@@ -17,7 +17,7 @@ const Footer = () => {
 
             <ul className=' '>
                 {arrButtons.map(({ href, title }) => (
-                    <Link to={href} smooth={true} duration={500}>
+                    <Link key={title} to={href} smooth={true} duration={500}>
                         <li className='text-center '>{title}</li>
                     </Link>
                 ))}
